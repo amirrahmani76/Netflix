@@ -12,7 +12,7 @@ const SectionCards = ({ title, videos, size }) => {
         {videos.map((video, idx) => {
           return (
             // eslint-disable-next-line react/jsx-key
-            <Link href={`/video/`}>
+            <Link href={`/video/${video.id}`}>
               <a>
                 <Card key={idx} id={idx} imgUrl={video.imgUrl} size={size} />
               </a>

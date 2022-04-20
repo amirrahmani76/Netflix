@@ -1,14 +1,13 @@
-.container {
+/* .container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  min-height: 100vh;
-  background-color: var(--black);
-
-  background-image: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)),
-    url(/static/signin-bg.jpg);
-}
+  padding: 0;
+  margin: 0;
+  font-family: Roboto Slab, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: var(--black40);
+  color: #fff;
+  overflow-x: hidden;
+} */
 
 .header {
   display: flex;

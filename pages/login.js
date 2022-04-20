@@ -33,7 +33,6 @@ const Login = () => {
 
   const handleOnChangeEmail = (e) => {
     setUserMsg('');
-    console.log(email);
     const email = e.target.value;
     setEmail(email);
   };
@@ -58,7 +57,6 @@ const Login = () => {
           setIsLoading(false);
         }
       } else {
-        console.log('Somting went wrong logging in ');
         setIsLoading(false);
       }
     } else {
